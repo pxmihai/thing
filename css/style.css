@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color:#aa2200;
+    height:15vh;
+}
+
+#footer{
+    background-color:cornflowerblue;
+    height:5vh;
+}
+
+#middle{
+    display: flex;
+    background-color:tomato ;
+    height:80vh;
+}
+#middleLeft{
+    display:flex;
+    width:40%;
+    background-color:white;
+}
+#middleRight{
+    display:flex;
+    width:60%;
+    background-color:black;
+}
