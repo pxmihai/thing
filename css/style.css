@@ -25,5 +25,13 @@
 #middleRight{
     display:flex;
     width:60%;
-    background-color:hotpink;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+
 }
+video{
+    width:100%;
+
+}
+
