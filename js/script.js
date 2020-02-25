@@ -1,21 +1,19 @@
-var video =document.querySelector('video');
-var juice =document.querySelector('.orange-juice');
-var btn =document.getElementById('play-pause');
+let video =document.querySelector('video');
+let juice =document.querySelector('.orange-juice');
+let myButton =document.getElementById('playPause');
 
 function togglePlayPause(){
-
     if(video.paused){
-        btn.className='pause';
+        myButton.className='pause';
         video.play();
         // alert('checks');
     }
     else{
-        btn.className='play';
+        myButton.className='play';
         video.pause();
     }
 }
-
-btn.onclick=function(){
+myButton.onclick=function(){
     // alert('checks');
     togglePlayPause();
 };
@@ -25,6 +23,6 @@ video.addEventListener('timeupdate',function(){
     juice.style.width=juicePos * 100 + "%";
     if(video.ended)
     {
-        // btn.className="play";
+        myButton.className="play";
     }
 });
