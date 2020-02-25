@@ -1,0 +1,12 @@
+- ### Serve the files locally
+    - data/
+- ### Serve the files from a server
+    - json with description and files, using node and express
+- ### Video size
+    - addapt the player to the video size
+- ### Video player
+    -play/pause (|>)\
+    -progress(---)\
+    -mute (x)\
+    -vol (+|-)\
+    -fullScreen ([-])
