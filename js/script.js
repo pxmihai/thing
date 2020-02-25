@@ -1,6 +1,6 @@
-let video =document.querySelector('video');
-let juice =document.querySelector('.orange-juice');
-let btn =document.getElementById('play-pause');
+var video =document.querySelector('video');
+var juice =document.querySelector('.orange-juice');
+var btn =document.getElementById('play-pause');
 
 function togglePlayPause(){
 
@@ -20,7 +20,11 @@ btn.onclick=function(){
     togglePlayPause();
 };
 
-// video.addEventListener('timeupdate',function(){
-//     let juicePos = video.currentTime/video.duration;
-//     juice.style.width=juicePos*100 +"%";
-// });
+video.addEventListener('timeupdate',function(){
+    let juicePos = video.currentTime/video.duration;
+    juice.style.width=juicePos * 100 + "%";
+    if(video.ended)
+    {
+        // btn.className="play";
+    }
+});
