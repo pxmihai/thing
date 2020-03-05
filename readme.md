@@ -11,3 +11,4 @@
     -mute (x)\
     -vol (+|-)\
     -fullScreen ([-])
+- ### change file from local to cnd

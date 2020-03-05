@@ -14,11 +14,21 @@
     "source" : "data/video/video1.mp4",
     "duration" : "9:59",
     "img" : "data/thumbs/video1.jpg"
+  },
+  {
+
+    "id" : 0,
+    "name" : "Been far?",
+    "source" : "data/video/video1.mp4",
+    "duration" : "9:59",
+    "img" : "data/thumbs/video1.jpg"
+  },
+  {
+
+    "id" : 0,
+    "name" : "Been far?",
+    "source" : "data/video/video1.mp4",
+    "duration" : "9:59",
+    "img" : "data/thumbs/video1.jpg"
   }
-
-
-
-
-
-
 ]
