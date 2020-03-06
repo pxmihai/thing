@@ -50,11 +50,7 @@
 /*}*/
 #container-video{
     position:relative;
-    /*right: 20%;*/
-    left: 20%;
-    /*bottom:20%;*/
-    /*top: 20%;*/
-    /*height:500px;*/
+    left: 50%;
     width:450px;
     /*max-width:300px;*/
     background-color: white;
