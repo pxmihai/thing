@@ -59,7 +59,7 @@
     overflow:hidden;
 }
 video{
-    width:1023px;/*intended*/
+    width:1024px;
     height:auto;
 }
 #container-video:hover .controls {

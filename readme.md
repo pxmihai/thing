@@ -11,4 +11,9 @@
     -mute (x)\
     -vol (+|-)\
     -fullScreen ([-])
-- ### change file from local to cnd
+- ### change file from local to w3
+    - [x] done
+
+- ### questions
+    should i dynamically check the video size and resize the video to not \
+    upscale the video?
