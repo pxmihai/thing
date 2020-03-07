@@ -50,17 +50,17 @@
 /*}*/
 #container-video{
     position:relative;
-    left: 50%;
-   width:420px;
-    height:340px;
+    left: 5%;
+    width:1024px;
+    height:auto;
     object-fit: cover;
     /*max-width:300px;*/
     background-color: white;
     overflow:hidden;
 }
 video{
-    width:320px;
-    height:240px;
+    width:1023px;/*intended*/
+    height:auto;
 }
 #container-video:hover .controls {
     transform:translateY(0);
