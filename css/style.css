@@ -51,10 +51,16 @@
 #container-video{
     position:relative;
     left: 50%;
-    width:450px;
+   width:420px;
+    height:340px;
+    object-fit: cover;
     /*max-width:300px;*/
     background-color: white;
     overflow:hidden;
+}
+video{
+    width:320px;
+    height:240px;
 }
 #container-video:hover .controls {
     transform:translateY(0);
